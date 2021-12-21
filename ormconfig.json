@@ -9,6 +9,7 @@
   "database": "queries_challenge",
   "entities": ["./src/modules/**/entities/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
+  "logging": ["error"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
   }
